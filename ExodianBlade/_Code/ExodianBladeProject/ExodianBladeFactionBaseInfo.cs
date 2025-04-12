@@ -33,7 +33,14 @@ namespace ExodianBlade
         public override void DeserializeFactionIntoSelf(SerMetaData MetaData, ArcenDeserializationBuffer Buffer, SerializationCommandType SerializationCmdType)
         {
             BladeAtPlanetIndex = Buffer.ReadInt32(MetaData, ReadStyle.PosExceptNeg1, "ExodianBlade.BladeAtPlanetIndex");
-            LOG.Msg("{0}() called. BladeAtPlanetIndex={1}", this.TypeNameAndMethod(), BladeAtPlanetIndex);
+
+            string planetName = "Unknown";
+            if (BladeAtPlanetIndex >= 0 && BladeAtPlanetIndex < World_AIW2.Instance.Galaxy.Planets.Count)
+            {
+                planetName = World_AIW2.Instance.Galaxy.Planets[BladeAtPlanetIndex].Name;
+            }
+
+            LOG.Msg("{0}() called. BladeAtPlanetIndex={1}, PlanetName={2}", this.TypeNameAndMethod(), BladeAtPlanetIndex, planetName);
         }
 
         public override void SerializeFactionTo(SerMetaData MetaData, ArcenSerializationBuffer Buffer, SerializationCommandType SerializationCmdType)
