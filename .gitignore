@@ -1,0 +1,7 @@
+.vs/
+obj/
+*.user
+*.vscode
+*.pdb
+.editorconfig
+*.lnk
