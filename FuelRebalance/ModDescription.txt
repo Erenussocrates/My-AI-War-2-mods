@@ -1,0 +1,15 @@
+This rebalances the Logistician campaign type and the games that have the Fuel setting enabled, by making the regular forcefields, tractor arrays, tachyon arrays, most minefields and some of the basic turrets cost no Radon at all. Most turrets will cost around 450 Radon, and the sniper turrets will cost 1800 Radon. Anything that costs above 10k Radon and the station keepers are unchanged.
+
+In Fallen Spire campaigns, the player will be able to build a Spire version of the fuel stations on planets with a mark 7 Spire city. These fuel stations also have a strict per-planet and per-galaxy limit.
+
+Zenith Traders will also be able to sell Minor Fuel Stations, a previously deprecated item in the base game. These also have a per-galaxy limit. 
+
+In exchange of this, all fuel stations have a 60k energy consumption to maintain. That also makes them more realistic too.
+
+This rebalances the game in a way that if the player loses a Radon station, they don't insta-lose the game, or that it makes it possible to grab an expansion even if you have no Radon available, since only the awesome turrets are expensive now. 
+It would also be close to impossible to play a Fuel game together with Fallen Spire campaign without a rebalance, since the Spire City buildings also cost Radon, and a lot of Radon, mind you.
+
+Keep in mind that if there are new turrets that are added by another mod, this mod might not make any changes to them.
+
+I would also like to thank Dismiss, Corpserule and Lord of Nothing for the help that I got while making this.
+I especially thank Dismiss, as without him, essential parts of this mod would have probably been either impossible or of a much weaker quality, since he was the one who coded in a brand new tag to be used in the configuration, and all I did was adding that new tag in my mod.

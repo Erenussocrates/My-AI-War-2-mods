@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<entity name="SpireMajorArgonFuelStation"  
+		copy_from="MajorArgonFuelStation" 
+		tags="SpireCityBuildMenu,ArgonFuel,If_Fuel_Enabled"
+		required_expansion_list="1_The_Spire_Rises"
+		thematic_groups="FallenSpire,Spire"
+		voice_group="Spire"
+		display_name="Spire Argon Fuel Generator" 
+		display_name_for_sidebar="Spi Argon Fuel"
+		description="Fuel generator an advanced Spire City can build.  Useful for powering small and midsized craft, converts a lot of power into fuel.  Can only have 1 per planet, and can only have 2 of any Spire Fuel Station galaxy-wide."
+		build_sidebar_categories_i_am_part_of="SpireCity"
+		never_leaves_remains="false"
+		city_socket_cost="2"
+		name_for_city_sockets="Spire Casing"
+		name_for_city_sockets_short="Casing"
+		minimum_required_city_level_for_construction="7" 
+		base_ship_cap_in_custom_city="1" 
+		mark_level_scale_style="OriginalWithoutCapRise"
+		metal_cost="1000000"
+		energy_consumption="800000"
+		fuel_use="0"
+		base_galaxy_wide_cap_for_players_constructing="2"
+		galaxy_wide_cap_match_string="SpireFuel"
+            >	
+		<resource_production type="FuelArgon" amount="800000" />
+    </entity>
+	
+	<entity name="SpireMajorRadonFuelStation"  
+		copy_from="MajorRadonFuelStation" 
+		tags="SpireCityBuildMenu,RadonFuel,If_Fuel_Enabled"
+		required_expansion_list="1_The_Spire_Rises"
+		thematic_groups="FallenSpire,Spire"
+		voice_group="Spire"
+		display_name="Spire Radon Fuel Generator" 
+		display_name_for_sidebar="Spi Radon Fuel"
+		description="Fuel generator an advanced Spire City can build.  Useful for powering turrets and forcefields, converts a lot of power into fuel.  Can only have 1 per planet, and can only have 2 of any Spire Fuel Station galaxy-wide."
+		build_sidebar_categories_i_am_part_of="SpireCity"
+		never_leaves_remains="false"
+		city_socket_cost="2"
+		name_for_city_sockets="Spire Casing"
+		name_for_city_sockets_short="Casing"
+		minimum_required_city_level_for_construction="7" 
+		base_ship_cap_in_custom_city="1" 
+		mark_level_scale_style="OriginalWithoutCapRise"
+		metal_cost="1000000"
+		energy_consumption="800000"
+		fuel_use="0"
+		base_galaxy_wide_cap_for_players_constructing="2"
+		galaxy_wide_cap_match_string="SpireFuel"
+            >	
+		<resource_production type="FuelRadon" amount="800000" />
+    </entity>
+	
+	<entity name="SpireMajorXenonFuelStation"  
+		copy_from="MajorXenonFuelStation" 
+		tags="SpireCityBuildMenu,XenonFuel,If_Fuel_Enabled"
+		required_expansion_list="1_The_Spire_Rises"
+		thematic_groups="FallenSpire,Spire"
+		voice_group="Spire"
+		display_name="Spire Xenon Fuel Generator" 
+		display_name_for_sidebar="Spi Xenon Fuel"
+		description="Fuel generator an advanced Spire City can build.  Useful for powering very large and powerful craft, converts a lot of power into fuel.  Can only have 1 per planet, and can only have 2 of any Spire Fuel Station galaxy-wide."
+		build_sidebar_categories_i_am_part_of="SpireCity"
+		never_leaves_remains="false"
+		city_socket_cost="2"
+		name_for_city_sockets="Spire Casing"
+		name_for_city_sockets_short="Casing"
+		minimum_required_city_level_for_construction="7" 
+		base_ship_cap_in_custom_city="1" 
+		mark_level_scale_style="OriginalWithoutCapRise"
+		metal_cost="1000000"
+		energy_consumption="800000"
+		fuel_use="0"
+		base_galaxy_wide_cap_for_players_constructing="2"
+		galaxy_wide_cap_match_string="SpireFuel"
+            >	
+		<resource_production type="FuelXenon" amount="800000" />
+    </entity>
+  
+</root>

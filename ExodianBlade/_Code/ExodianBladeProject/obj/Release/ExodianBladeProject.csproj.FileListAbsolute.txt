@@ -1,0 +1,4 @@
+C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject\obj\Release\ExodianBladeProject.csproj.AssemblyReference.cache
+C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject\obj\Release\ExodianBladeProject.csproj.CoreCompileInputs.cache
+C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\ModdableLogicDLLs\ExodianBlade.dll
+C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject\obj\Release\ExodianBlade.dll

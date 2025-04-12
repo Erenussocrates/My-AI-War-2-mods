@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <chamber name="Example" is_partial_record="true">    
+
+        <spawn entity="ExodianBlade" count="1" faction_name="FirstPlayer" x="0" y="0" />
+
+		<spawn entity="ExtragalacticMothership" count="1" mark_level="1" faction_name="AI" x="20000" y="-2000" />
+
+    </chamber>        
+</root>
+
+<!--
+<spawn entity="DirePikeGuardian" count="100" mark_level="1" faction_name="AI" x="20000" y="2000" />
+<spawn entity="OrbitalMassDriver" count="5" mark_level="1" faction_name="AI" x="20000" y="-2000" />
+-->
+
+<!--
+The other faction_name= choice is "AI" , first one is "FirstPlayer"
+-->

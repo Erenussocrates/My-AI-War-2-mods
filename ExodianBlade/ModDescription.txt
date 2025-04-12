@@ -1,0 +1,14 @@
+Things to do:
+
+
+Make the hack, just like Spire Relic search hack,
+but don't make it appear nearby the human homeworld, make it appear somewhere in the middle of the galaxy, some random planet that is roughly equal distance away from player and AI homeworlds.
+
+Make the unit spawn and awaiting to be claimed when hacked
+And you have to own the planet to claim
+
+Make the journal logs from the first game appear at appropriate times
+
+Make each of the existing AI factions immediately spawn a random tier 4 exowar ship when it's claimed
+
+Thank RocketAssistedPuffin, Lord Of Nothing and Dismiss.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+     <faction
+               name="ExodianBlade"
+               display_name="Exodian Blade"
+               short_name="Exodian Blade"
+               processing_group="ExodianBlade"
+               base_info_source="ExodianBladeBaseInfo"
+               deep_info_source="ExodianBladeDeepInfo"
+               team_center_color="c414A4C"
+               team_border_color="c00FFFF"
+               type="SpecialFaction"
+               must_be_at_most_one="true"
+               description="
+Exodian Blade is a megacolossal Spire capital ship that was sent to colonize this galaxy a very long time ago. While Exodian Blade was on it's way, the Spire civil war broke out, then Exodian Blade deactivated and fell into disrepair under mysterious circumstances. If we can find, repair and activate this Spire ship; it will surely become a super-weapon of unprecedented value against the AI. But we must be careful, as the AI will most probably have a response of equal degree.
+
+&lt;color=#f25e1c&gt;MEDIUM IMPACT:&lt;/color&gt; Gives us a great super-weapon, but the AI will have a strong response when it's repaired."
+               can_use_spire_debris="false"
+               impact="Easier"
+               icon_name_for_lobby="Ships4/ExoTier1"
+               is_considered_player_allied_for_filter_purposes="true"
+               >
+
+            <custom_field
+                    is_hidden="true"
+                    name="Allegiance"
+                    display_name="Allegiance"
+                    description="Always friendly to players."
+                    sort_group="300"
+                    setting_type="CustomDropdownArbitraryOptions"
+                    arbitrary_options="Friendly To Players"
+                    default_option="Friendly To Players"
+                    />
+
+     </faction>
+
+</root>

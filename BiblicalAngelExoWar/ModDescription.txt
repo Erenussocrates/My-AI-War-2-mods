@@ -1,0 +1,57 @@
+This mod just changes the names of 40+ Exogalactic War Front units into biblically accurate angel and demon names, it's just for cosmetic flair.
+
+Maybe the humanity wanted to name their strongest previously-thought-to-be-allies after their biblical protectors before they decided to turn their weapons on their own masters?
+
+Maybe the AI has a god complex and that's why they named their most powerful minions after the angels?
+
+Or maybe you are a Neon Genesis Evangelion fan, and really like the idea of potentially world-ending AI agents named after the angels.
+
+In any case, be prepared to feel the fear of seeing something unfamiliar and scary, all over again.
+
+If you have the mod "ExoWar Overhaul" by Lord of Nothing enabled, this mod will also rename the newly introduced exowar units by that mod too.
+
+List of changed unit names (Exowar Overhaul units are included):
+
+Usurper -> Ophan
+Subjugator -> Eve
+Nemesis -> Lilith
+Wormhole Borer -> Nephilim
+Flenser -> Israfel
+Mothership / Dreadnaught -> Michael
+Planetcracker -> Gabriel
+Exowar Overhaul Mothership -> Mastema
+Dragon -> Metatron
+Zmey Gorynych -> Lucifer
+Thunderchild -> Ramiel
+Custodian -> Shamsiel
+Jackalope -> Uriel
+Redback -> Raziel
+Grendel -> Azazel
+Manticore -> Zuriel
+Lernaean -> Leliel
+Reanimator -> Sandalphon
+Wendigo -> Raphael
+Poltergeist -> Azrael
+Umbra -> Umbriel
+Wyrm -> Sachiel
+Shellshocker -> Matriel
+Chimera -> Arakiel
+Warspite -> Turiel
+Phoenix -> Barbiel
+Centaur -> Ariel
+Lamassu -> Barachiel
+Typhon -> Abaddon
+Strix -> Muriel
+Proteus -> Factoriel
+Maugrim -> Abatur
+Fenrir -> Sahaquiel
+Polaris -> Zephon
+Ogre -> Gremory
+Echidna -> Asmodeus
+Cyclops -> Malphas
+Magni -> Astaroth
+Basilisk -> Baphomet
+Hunter / Annihilator -> Sariel
+Hunter / Seeker -> Ezekiel
+Hunter / Killer -> Seraph
+

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <entity name="Usurper" 
+			is_partial_record="true"
+			display_name="Ophan"
+			display_name_for_sidebar="Ophan"
+			>
+  </entity>
+
+  <entity name="Subjugator" 
+			is_partial_record="true"
+			display_name="Eve"
+			display_name_for_sidebar="Eve"
+			>
+  </entity>
+  
+  <entity name="Nemesis" 
+			is_partial_record="true"
+			display_name="Lilith"
+			display_name_for_sidebar="Lilith"
+			>
+  </entity>
+  
+  <entity name="MobileWormholeBorer" 
+			is_partial_record="true"
+			display_name="Mobile Nephilim"
+			display_name_for_sidebar="Mobile Neph"
+			description="A fast wormhole borer ship that will find a location to try to create a new Wormhole, then transform into the full Nephilim."
+			>
+  </entity>
+  
+  <entity name="WormholeBorer"
+			is_partial_record="true"
+			display_name="Nephilim"
+			display_name_for_sidebar="Nephilim"
+			>
+  </entity>
+
+  <entity name="ExtragalacticFlenser"
+			is_partial_record="true"
+			display_name="Israfel"
+			display_name_for_sidebar="Israfel"
+			>
+  </entity>
+
+  <entity name="ExtragalacticFlenser"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Israfel - Ra Pattern" 
+			display_name_for_sidebar="Israfel-Ra"
+			>
+  </entity>
+  
+  <entity name="ExtragalacticMothership"
+			is_partial_record="true"
+			display_name="Michael"
+			display_name_for_sidebar="Michael"
+			>
+  </entity>
+  
+  <entity name="ExtragalacticPlanetCracker"
+			is_partial_record="true"
+			display_name="Gabriel"
+			display_name_for_sidebar="Gabriel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticTrueMothership"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Mastema"
+			display_name_for_sidebar="Mastema"
+			>
+  </entity>
+  
+  <entity name="LONTrueMothershipDrone"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Mastema Swarm Drone"
+			display_name_for_sidebar="MS Drone"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserOdin"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Israfel - Odin Pattern" 
+			display_name_for_sidebar="Israfel-Odin"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserThor"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Israfel - Thor Pattern" 
+			display_name_for_sidebar="Israfel-Thor"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserZeus"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Israfel - Zeus Pattern" 
+			display_name_for_sidebar="Israfel-Zeus"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiter"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Israfel - Jupiter Pattern" 
+			display_name_for_sidebar="Israfel-Jupiter"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardJuno"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around the primary hull, and repels smaller ships using its powerful knockback weaponry."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardVesta"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around the primary hull, and emits a powerful damping field that reduces the attack power of hostile units across the entire planet."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardMinerva"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around the primary hull, and repels smaller ships using its powerful knockback weaponry."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardCeres"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around the primary hull, and maintains a swarm of smaller guardian-producing factories."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticCeresWard"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A sub-sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around it's parent's hull, and produces a swarm of AI guardians."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardDiana"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Threatens the entire gravity well with it's powerful long range weaponry."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardVenus"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Converts nearby smaller vessels to AI control at a frightening rate."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardMars"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Uses a powerful beam weapon against nearby vessels, and also boosts AI ships across the entire planet."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardMercury"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. In addition to speeding up allied ships on the planet, it uses advanced stealth systems that are so well tuned it can fire it's weapons with almost no disruption of it's cloaking field."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardNeptune"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. It's Tidal Wave Missiles are devastating against structures."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardVulcan"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Mounts a powerful anti-capital ship weapon and maintains a swarm of smaller, Dire Guardian producing factories."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticVulcanWard"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A sub-sub-unit that is part of a Jupiter Pattern Israfel. Produces a swarm of AI Dire guardians."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticFlenserJupiterWardApollo"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			description="A powerful sub-unit that is part of a Jupiter Pattern Israfel. Generates a protective barrier around the primary hull, and repels smaller ships using its powerful knockback weaponry."
+			>
+  </entity>
+  
+  <entity name="AIDragon"
+			is_partial_record="true"
+			display_name="Spire Metatron"
+			display_name_for_sidebar="Spi Meta"
+			>
+  </entity>
+  
+  <entity name="AIDZDragon"
+			is_partial_record="true"
+			display_name="Zenith Metatron"
+			display_name_for_sidebar="Zen Meta"
+			>
+  </entity>
+  
+  <entity name="LONNeinzulDragon"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Neinzul Metatron"
+			display_name_for_sidebar="Nein Meta"
+			>
+  </entity>
+  
+  <entity name="LONNanocaustDragon"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Nanocaust Metatron"
+			display_name_for_sidebar="Nano Meta"
+			>
+  </entity>
+  
+  <entity name="LONExowarSuperdragon"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Lucifer"
+			display_name_for_sidebar="Lucifer"
+			>
+  </entity>
+  
+  <entity name="ExtragalacticThunderbird"
+			is_partial_record="true"
+			display_name="Ramiel"
+			display_name_for_sidebar="Ramiel"
+			>
+  </entity>
+  
+  <entity name="Custodian"
+			is_partial_record="true"
+			display_name="Shamsiel"
+			display_name_for_sidebar="Shamsiel"
+			description="Advanced prototype of the next version of a 'Ramiel' vessel. More easily produced, but weaker than the original. Long range blasts, boosts allies on the planet, protects them with a forcefield and is invulnerable if there are Guard Posts present."
+			>
+  </entity>
+  
+  <entity name="ExtragalacticJackalope"
+			is_partial_record="true"
+			display_name="Uriel"
+			display_name_for_sidebar="Uriel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticRedback"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Raziel"
+			display_name_for_sidebar="Raziel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticGrendel"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Azazel"
+			display_name_for_sidebar="Azazel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticManticore"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Zuriel"
+			display_name_for_sidebar="Zuriel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticHydra"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Leliel"
+			display_name_for_sidebar="Leliel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticHydraHead"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Leliel Head"
+			display_name_for_sidebar="Leliel Head"
+			description="A Head spawned from a Leliel, featuring advanced corrosive weapons."	
+			>
+  </entity>
+  
+  <entity name="Reanimator"
+			is_partial_record="true"
+			display_name="Sandalphon"
+			display_name_for_sidebar="Sandalphon"
+			description="Advanced prototype of the next version of a 'Raphael' vessel. Turns enemies to its side, and releases drones to bring back fallen allies."
+			>
+  </entity>
+  
+  <entity name="ExtragalacticWendigo"
+			is_partial_record="true"
+			display_name="Raphael"
+			display_name_for_sidebar="Raphael"
+			>
+  </entity>
+  
+  <entity name="WendigoDrone"
+			is_partial_record="true"
+			display_name="Raphael Drone"
+			display_name_for_sidebar="Raphael DRN"
+			>
+  </entity>
+  
+  <entity name="ExtragalacticPoltergeist"
+			is_partial_record="true"
+			display_name="Azrael"
+			display_name_for_sidebar="Azrael"
+			>
+  </entity>
+  
+  <entity name="Umbra"
+			is_partial_record="true"
+			display_name="Umbriel"
+			display_name_for_sidebar="Umbriel"
+			description="Advanced prototype of the next version of a 'Azrael' vessel. Cloaked and very hard to reveal, capable of entirely ignoring Forcefields and personal shields."
+			>
+  </entity>
+  
+  <entity name="ExtragalacticWyrm"
+			is_partial_record="true"
+			display_name="Sachiel"
+			display_name_for_sidebar="Sachiel"
+			>
+  </entity>
+  
+  <entity name="Shellshocker"
+			is_partial_record="true"
+			display_name="Matriel"
+			display_name_for_sidebar="Matriel"
+			description="Advanced prototype of the next version of a 'Sachiel' vessel. Long range splash damage, which also debuffs things hit."
+			>
+  </entity>
+  
+  <entity name="ExtragalacticChimeraArtillery"
+			is_partial_record="true"
+			display_name="Arakiel Artillery"
+			display_name_for_sidebar="Arakiel Art"
+			>
+  </entity>
+  
+  <entity name="ExtragalacticChimera"
+			is_partial_record="true"
+			display_name="Arakiel"
+			display_name_for_sidebar="Arakiel"
+			description="Arakiel without the main guns but now firing revealed missile launchers."
+			>
+  </entity>
+  
+  <entity name="WarspiteArtillery"
+			is_partial_record="true"
+			display_name="Turiel Artillery"
+			display_name_for_sidebar="Turiel Art"
+			description="Advanced prototype of the next version of a 'Arakiel Artillery' vessel. Constant, long range blasts, affects everything in the small blast radius."
+			>
+  </entity>
+  
+  <entity name="Warspite"
+			is_partial_record="true"
+			display_name="Turiel"
+			display_name_for_sidebar="Turiel"
+			description="Was hidden inside the Turiel Artillery, and not happy."
+			>
+  </entity>
+  
+  <entity name="ExtragalacticPhoenix"
+			is_partial_record="true"
+			display_name="Barbiel"
+			display_name_for_sidebar="Barbiel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticPhoenixV2"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Unstable Barbiel"
+			display_name_for_sidebar="Unst Barbie"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticPhoenixV2Stage2"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Incandescent Barbiel"
+			display_name_for_sidebar="Incan Barbie"
+			description="Rampaging, overcharged version of a Barbiel, born from the ashes of an Unstable Barbiel. Whatever exotic technologies are involved are not exactly healthy for the ship, however."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticCentaur"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Ariel"
+			display_name_for_sidebar="Ariel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticLamassu"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Barachiel"
+			display_name_for_sidebar="Barachiel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticTyphon"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Abaddon"
+			display_name_for_sidebar="Abaddon"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticStrix"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Muriel"
+			display_name_for_sidebar="Muriel"
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticDireProteus"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Dire Factoriel"
+			display_name_for_sidebar="Dire Factor"
+			description="We have previously encountered the Factoriel, which was less of a ship, and more a voracious swarm masquerading as one. This is like that. But larger. Much larger."	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticDireProteusStage2"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Renewing Dire Factoriel"
+			display_name_for_sidebar="NewDire Factor"
+			description="We have previously encountered the Factoriel, which was less of a ship, and more a voracious swarm masquerading as one. This is like that. But larger. Much larger."	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticDireProteusStage3"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Reformed Dire Factoriel"
+			display_name_for_sidebar="ReDire Factor"
+			description="We have previously encountered the Factoriel, which was less of a ship, and more a voracious swarm masquerading as one. This is like that. But larger. Much larger."	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticDireProteusStage4"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Ebbing Dire Factoriel"
+			display_name_for_sidebar="EbDire Factor"
+			description="We have previously encountered the Factoriel, which was less of a ship, and more a voracious swarm masquerading as one. This is like that. But larger. Much larger."	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticProteus"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Factoriel"
+			display_name_for_sidebar="Factoriel"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticProteusStage2"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Reformed Factoriel"
+			display_name_for_sidebar="Re Factor"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticProteusStage3"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Ebbing Factoriel"
+			display_name_for_sidebar="Eb Factor"	
+			>
+  </entity>
+  
+  <entity name="ExtragalacticMaugrim"
+			is_partial_record="true"
+			display_name="Abatur"
+			display_name_for_sidebar="Abatur"		
+			>
+  </entity>
+  
+  <entity name="MaugrimDrone"
+			is_partial_record="true"
+			display_name="Abatur Drone"
+			display_name_for_sidebar="Abatur DRN"		
+			>
+  </entity>
+  
+  <entity name="Fenrir"
+			is_partial_record="true"
+			display_name="Sahaquiel"
+			display_name_for_sidebar="Sahaquiel"	
+			description="Advanced prototype of the next version of an 'Abatur' vessel. Has a long range fan beam capable of piercing many targets, as well as a shorter range flak battery and a set of drones."
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticPolaris"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Zephon"
+			display_name_for_sidebar="Zephon"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticOgre"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Gremory"
+			display_name_for_sidebar="Gremory"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticEchidna"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Asmodeus"
+			display_name_for_sidebar="Asmodeus"	
+			>
+  </entity>
+  
+  <entity name="LONEchidnaNanoswarm"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Seed of Chaos"
+			display_name_for_sidebar="Seed of Chaos"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticCyclops"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Malphas"
+			display_name_for_sidebar="Malphas"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticMagni"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Astaroth"
+			display_name_for_sidebar="Astaroth"	
+			>
+  </entity>
+  
+  <entity name="LONExtragalacticBasilisk"
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			display_name="Baphomet"
+			display_name_for_sidebar="Baphomet"	
+			>
+  </entity>
+  
+  <entity name="ExtragalacticAIHunterAnnihilator"
+			is_partial_record="true"
+			display_name="Sariel"
+			display_name_for_sidebar="Sariel"
+			description="Vastly upgraded Seraph."		
+			>
+  </entity>
+  
+  <entity name="ExtragalacticAIHunterSeeker"
+			is_partial_record="true"
+			display_name="Ezekiel"
+			display_name_for_sidebar="Ezekiel"
+			description="Larger and more dangerous Seraph."		
+			>
+  </entity>
+  
+  <entity name="AIHunterKiller"
+			is_partial_record="true"
+			display_name="Seraph"
+			display_name_for_sidebar="Seraph"
+			>
+  </entity>
+
+</root>

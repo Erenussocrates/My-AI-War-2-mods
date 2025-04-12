@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<entity name="ZenithMinorArgonFuelStation"
+	      thematic_groups="Hidden" is_expecting_to_not_be_encyclopedia_counted_at_all="true"
+          tags="Capturable,ArgonFuel,If_Fuel_Enabled" is_auto_scrapping_skipped_when_command_station_type_changes="true"
+          draw_in_galaxy_view="false"
+          visuals="Assets/_FinalGameMeshes/AIBuildings/PlanetaryCloaker/PlanetaryCloaker.prefab"
+          icon_name="Ships4/FuelArgon" gimbal_icon_size_multiplier="0.9"
+          y_offset_of_icon="30"
+          category="Ship" is_critical_infrastructure="true"
+          size_scale="4.5"
+          visuals_scale_multiplier="0.6"
+          collision_priority="900"
+          display_name="Zenith Argon Fuel Generator"
+          display_name_for_sidebar="Zen Argon Fuel"
+          description="Small fuel generator sold by the Zenith Trader.  Useful for powering small and midsized craft, and has the advantage of being mildly mobile for easier defense.  The Trader won't sell you this if you already have two in the galaxy."
+          behavior="Stationary"
+          build_sidebar_categories_i_am_part_of="Infrastructure"
+          never_leaves_remains="true"
+          metal_to_claim="90000"
+          starting_mark_level="Markless"
+          cost_for_ai_to_purchase="200"
+          hull_points="70000" shield_points="92000" speed="AlmostNone" engine_gx="3"
+          metal_cost="4000000" energy_consumption="30000"
+          armor_mm="80" albedo="0.9" mass_tx="2"
+          ship_or_structure_explosion_sfx="StructureMidsize_Explosion"
+          ship_or_structure_explosion_if_on_other_planet_sfx="StructureLostOnOtherPlanet_Explosion"
+          voice_group="Silent"
+          fleet_membership="Planetary"
+          skip_drawing_ship_cap="true"
+          priority_as_ai_target="IrreplaceableBigAsTheyCome" priority_as_frd_target="IgnoreMe" priority_to_protect="Irreplaceable"
+		  base_galaxy_wide_cap_for_players_constructing="2" galaxy_wide_cap_match_string="ZenithArgon"
+			  >
+	  <fleet_membership name="ZenithPurchases" ship_cap_group="OtherDefense" weight="100" cap="1"/>
+      <resource_production type="FuelArgon" amount="40000" />
+      <metal_flow purpose="SelfConstruction" throughput="500"/>
+    </entity>
+	
+	<entity name="ZenithMinorRadonFuelStation"
+        thematic_groups="Hidden" is_expecting_to_not_be_encyclopedia_counted_at_all="true"
+        tags="Capturable,RadonFuel,If_Fuel_Enabled" is_auto_scrapping_skipped_when_command_station_type_changes="true"
+        draw_in_galaxy_view="false"
+        visuals="Assets/_FinalGameMeshes/AIBuildings/PlanetaryCloaker/PlanetaryCloaker.prefab"
+        icon_name="Ships4/FuelRadon" gimbal_icon_size_multiplier="0.9"
+        y_offset_of_icon="30"
+        category="Ship" is_critical_infrastructure="true"
+        size_scale="4.5"
+        visuals_scale_multiplier="0.6"
+        collision_priority="900"
+        display_name="Zenith Radon Fuel Generator"
+        display_name_for_sidebar="Zen Radon Fuel"
+        description="Small fuel generator sold by the Zenith Trader.  Useful for powering turrets and forcefields, and has the advantage of being mildly mobile for easier defense.  The Trader won't sell you this if you already have two in the galaxy."
+        behavior="Stationary"
+        build_sidebar_categories_i_am_part_of="Infrastructure"
+        never_leaves_remains="true"
+        metal_to_claim="90000"
+        starting_mark_level="Markless"
+        cost_for_ai_to_purchase="200"
+        hull_points="70000" shield_points="92000" speed="AlmostNone" engine_gx="3"
+        metal_cost="4000000" energy_consumption="30000"
+        armor_mm="80" albedo="0.9" mass_tx="2"
+        ship_or_structure_explosion_sfx="StructureMidsize_Explosion"
+        ship_or_structure_explosion_if_on_other_planet_sfx="StructureLostOnOtherPlanet_Explosion"
+        voice_group="Silent"
+        fleet_membership="Planetary"
+        skip_drawing_ship_cap="true"
+        priority_as_ai_target="IrreplaceableBigAsTheyCome" priority_as_frd_target="IgnoreMe" priority_to_protect="Irreplaceable"
+		base_galaxy_wide_cap_for_players_constructing="2" galaxy_wide_cap_match_string="ZenithRadon"
+			  >
+	<fleet_membership name="ZenithPurchases" ship_cap_group="OtherDefense" weight="100" cap="1"/>
+    <resource_production type="FuelRadon" amount="30000" />
+    <metal_flow purpose="SelfConstruction" throughput="500"/>
+  </entity>
+  
+  <entity name="ZenithMinorXenonFuelStation"
+        thematic_groups="Hidden"  is_expecting_to_not_be_encyclopedia_counted_at_all="true"
+        tags="Capturable,XenonFuel,If_Fuel_Enabled" is_auto_scrapping_skipped_when_command_station_type_changes="true"
+        draw_in_galaxy_view="false"
+        visuals="Assets/_FinalGameMeshes/AIBuildings/PlanetaryCloaker/PlanetaryCloaker.prefab"
+        icon_name="Ships4/FuelXenon" gimbal_icon_size_multiplier="0.9"
+        y_offset_of_icon="30"
+        category="Ship" is_critical_infrastructure="true"
+        size_scale="4.5"
+        visuals_scale_multiplier="0.6"
+        collision_priority="900"
+        display_name="Zenith Xenon Fuel Generator"
+        display_name_for_sidebar="Zen Xenon Fuel"
+        description="Small fuel generator sold by the Zenith Trader.  Useful for powering very large and powerful craft, and has the advantage of being mildly mobile for easier defense.  The Trader won't sell you this if you already have two in the galaxy."
+        behavior="Stationary"
+        build_sidebar_categories_i_am_part_of="Infrastructure"
+        never_leaves_remains="true"
+        metal_to_claim="90000"
+        starting_mark_level="Markless"
+        cost_for_ai_to_purchase="200"
+        hull_points="70000" shield_points="92000" speed="AlmostNone" engine_gx="3"
+        metal_cost="4000000" energy_consumption="30000"
+        armor_mm="80" albedo="0.9" mass_tx="2"
+        ship_or_structure_explosion_sfx="StructureMidsize_Explosion"
+        ship_or_structure_explosion_if_on_other_planet_sfx="StructureLostOnOtherPlanet_Explosion"
+        voice_group="Silent"
+        fleet_membership="Planetary"
+        skip_drawing_ship_cap="true"
+        priority_as_ai_target="IrreplaceableBigAsTheyCome" priority_as_frd_target="IgnoreMe" priority_to_protect="Irreplaceable"
+		base_galaxy_wide_cap_for_players_constructing="2" galaxy_wide_cap_match_string="ZenithXenon"
+			  >
+	<fleet_membership name="ZenithPurchases" ship_cap_group="OtherDefense" weight="100" cap="1"/>
+    <resource_production type="FuelXenon" amount="60000" />
+    <metal_flow purpose="SelfConstruction" throughput="500"/>
+  </entity>
+  
+</root>

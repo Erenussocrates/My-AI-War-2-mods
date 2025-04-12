@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <entity name="MajorArgonFuelStation"
+		is_partial_record="true"
+        energy_consumption="60000"
+        >
+  </entity>
+  <entity name="MajorRadonFuelStation"
+		is_partial_record="true"
+        energy_consumption="60000"
+		>
+  </entity>
+  <entity name="MajorXenonFuelStation"
+		is_partial_record="true"
+        energy_consumption="60000"
+		>
+  </entity>
+  <entity name="MajorBalancedFuelStation"
+		is_partial_record="true"
+        energy_consumption="60000"
+      >
+  </entity>
+</root>
