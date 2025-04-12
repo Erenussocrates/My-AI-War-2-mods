@@ -7,7 +7,7 @@ using Arcen.Universal;
 
 namespace ExodianBlade
 {
-    public class ExodianBladeFactionBaseInfo : ExternalFactionBaseInfoRoot
+    public class ExodianBladeFactionBaseInfo : ExternalFactionBaseInfoRoot, IExternalBaseInfo_Singleton
     {
         // serialized
         public int BladeAtPlanetIndex;
@@ -17,6 +17,7 @@ namespace ExodianBlade
 
         public ExodianBladeFactionBaseInfo()
         {
+            LOG.Msg("{0}() called.", this.TypeNameAndMethod());
             Cleanup();
         }
 
