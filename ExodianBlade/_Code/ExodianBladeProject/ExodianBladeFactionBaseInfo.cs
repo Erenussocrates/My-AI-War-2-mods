@@ -33,6 +33,7 @@ namespace ExodianBlade
         public override void DeserializeFactionIntoSelf(SerMetaData MetaData, ArcenDeserializationBuffer Buffer, SerializationCommandType SerializationCmdType)
         {
             BladeAtPlanetIndex = Buffer.ReadInt32(MetaData, ReadStyle.PosExceptNeg1, "ExodianBlade.BladeAtPlanetIndex");
+            LOG.Msg("{0}() called. BladeAtPlanetIndex={1}", this.TypeNameAndMethod(), BladeAtPlanetIndex);
         }
 
         public override void SerializeFactionTo(SerMetaData MetaData, ArcenSerializationBuffer Buffer, SerializationCommandType SerializationCmdType)
@@ -94,7 +95,7 @@ namespace ExodianBlade
         public override void WriteFactionSlotStatus(ArcenCharacterBufferBase buffer)
         {
             buffer.Add("<i>");
-            buffer.AddFactionColoredString("Feel My Blade (heh heh heh).", AttachedFaction);
+            buffer.AddFactionColoredString("Feel My Blade", AttachedFaction);
             buffer.Add("</i>");
         }
     }

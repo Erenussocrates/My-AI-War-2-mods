@@ -30,5 +30,25 @@ namespace ExodianBlade
         public override void DoLongRangePlanning_OnBackgroundNonSimThread_Subclass( ArcenLongTermIntermittentPlanningContext Context )
         {
         }
+
+        public override void SeedSpecialEntities_LateAfterAllFactionSeeding_CustomForPlayerType( Galaxy galaxy, ArcenHostOnlySimContext Context, MapTypeData MapData )
+        {
+            int mostHops = 0;
+            Planet best = null;
+            galaxy.DoForPlanetsSingleThread(
+                false, 
+                (p)=>
+                {
+                    var hops = p.OriginalHopsToAnyHomeworld;
+                    if (hops > mostHops)
+                    {
+                        mostHops = hops;
+                        best = p;
+                    }
+                    return DelReturn.Continue;
+                });
+            
+            BaseInfo.BladeAtPlanetIndex = best.Index;
+        }
     }
 }
