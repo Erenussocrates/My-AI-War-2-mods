@@ -40,7 +40,7 @@ namespace ExodianBlade
                 planetName = World_AIW2.Instance.Galaxy.Planets[BladeAtPlanetIndex].Name;
             }
 
-            LOG.Msg("{0}() called. BladeAtPlanetIndex={1}, PlanetName={2}", this.TypeNameAndMethod(), BladeAtPlanetIndex, planetName);
+            LOG.Msg("{0}() called. BladeAtPlanetIndex={1}, planetName={2}", this.TypeNameAndMethod(), BladeAtPlanetIndex, planetName);
         }
 
         public override void SerializeFactionTo(SerMetaData MetaData, ArcenSerializationBuffer Buffer, SerializationCommandType SerializationCmdType)
