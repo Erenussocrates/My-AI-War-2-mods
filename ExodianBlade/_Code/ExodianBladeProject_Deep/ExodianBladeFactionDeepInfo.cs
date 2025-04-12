@@ -31,24 +31,44 @@ namespace ExodianBlade
         {
         }
 
-        public override void SeedSpecialEntities_LateAfterAllFactionSeeding_CustomForPlayerType( Galaxy galaxy, ArcenHostOnlySimContext Context, MapTypeData MapData )
+        public override void SeedSpecialEntities_LateAfterAllFactionSeeding_CustomForPlayerType(Galaxy galaxy, ArcenHostOnlySimContext Context, MapTypeData MapData)
         {
             int mostHops = 0;
-            Planet best = null;
+            List<Planet> bestCandidates = new List<Planet>();
+
             galaxy.DoForPlanetsSingleThread(
-                false, 
-                (p)=>
+                false,
+                (p) =>
                 {
-                    var hops = p.OriginalHopsToAnyHomeworld;
+                    int hops = p.OriginalHopsToAnyHomeworld;
+
                     if (hops > mostHops)
                     {
+                        // New max hops found, clear list and add this planet
                         mostHops = hops;
-                        best = p;
+                        bestCandidates.Clear();
+                        bestCandidates.Add(p);
                     }
+                    else if (hops == mostHops)
+                    {
+                        // Equal to current max hops, add to list of candidates
+                        bestCandidates.Add(p);
+                    }
+
                     return DelReturn.Continue;
                 });
-            
-            BaseInfo.BladeAtPlanetIndex = best.Index;
+
+            if (bestCandidates.Count > 0)
+            {
+                Planet chosen = bestCandidates[Context.RandomToUse.Next(bestCandidates.Count)];
+                BaseInfo.BladeAtPlanetIndex = chosen.Index;
+            }
+            else
+            {
+                // Fallback: shouldn't happen, but just in case
+                BaseInfo.BladeAtPlanetIndex = -1;
+            }
         }
+
     }
 }
