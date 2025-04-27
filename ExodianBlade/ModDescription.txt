@@ -1,0 +1,14 @@
+It bummed me that a ship that is immensely powerful, but also can be permanently lost like the Exodian Blade from the original AI War game, or something that is equivalent to it didn't exist for AI War 2.
+
+So I wanted to set out and create it myself. 
+My original intention was to introduce an independent quest and subplot to the game, directly taken from the original AI War game, one to one. But unfortunately, my current expertise in modding AI War 2 wasn't good enough, so I did make do with this current iteration. If my expertise gets better, I might still vastly change the mod down the line to be more like the original quest.
+
+On the current version, building the Exodian Blade is tied to the Fallen Spire campaign. You will get the option to build the Exodian Blade on a tier 5 Spire City, but you can only either build the Exodian Blade, or the Spire Transceiver, not the both in the same galaxy. So you will have to make a choice. 
+Also makes the Spire Transceiver unscrappable for this reason.
+
+So in hindsight, this might make your Fallen Spire campaigns have more varied playstyles too.
+But it also has a few new surprise mechanics, so it could also become a double edged sword if you aren't careful.
+
+This mod obviously requires The Spire Rises DLC.
+
+I also want to thank RocketAssistedPuffin, Lord Of Nothing and Dismiss for their role in helping me with creating this mod. Especially I thank Dismiss, as usual for making this possible or more polished with a brand new attribute.

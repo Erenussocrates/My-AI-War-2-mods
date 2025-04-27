@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+   <entity name="ExodianBlade" tags="ShowsOnNormalDisplayMode,SpireCityBuildMenu" 
+           thematic_groups="FallenSpire,Spire"      
+		   special_entity_type="MobileCustomCityFedFleetFlagship"
+		   is_expecting_to_not_be_encyclopedia_counted_at_all="true"
+			draw_in_galaxy_view="true"
+			visuals="Assets/_FinalGameMeshes/AIExtragalactic/Tier3_ExtragalacticWarSlicerFrigate/Tier3_ExtragalacticWarSlicerFrigate.prefab"
+			material_override_path="Assets/_FinalGameMeshes/Spire/SpireLostFrigate/SpireLostFrigate.prefab"
+			icon_name="Ships4/ExoTier1" gimbal_icon_size_multiplier="2" capturable_max_per_galaxy="1"
+			voice_group="Spire"			
+			uses_large_health_bar="true"
+			category="Ship"
+            size_scale="12.5"
+			visuals_scale_multiplier="110"
+			y_offset_of_icon="30"
+			collision_priority="810"
+			display_name="Exodian Blade" display_name_for_sidebar="Exo Blade" override_faction_name="Lost Spire Expedition"
+			description="An ancient Spire artifact of the Lost Spire Expedition... All the Spire Relics we have encountered had references to this legendary ship thus far. 
+Originally sent to colonize our galaxy just before the Spire civil war broke out, the Exodian Blade deactivated and fell into disrepair under mysterious circumstances. 
+We don't even know how this thing is powered. Has a devastating humongous beam cannon that disintegrates anything it shoots through, and has a high rate of fire, that can pierce through any number of ships, and it has an infinite range. Summoning and repairing this will be extremely expensive and time consuming, but it will put this capital starship under our direct control, and it will cost us 170 AIP. 
+Since we don't have the resources or the time, we won't be able to restore all of it's full functionalities even if we repair it. It has a very unstable core; it can't generate any shields, moves very slowly, and will permanently perish if it's destroyed; producing a nuclear blast that annihilates everything in the system, and cost an additional 30 AIP. The blast is ineffective against mark 7 units. 
+			
+Summoning and repairing this capital starship will make us unable to build the Spire Transceiver, so we must make a choice between the two.
+"
+			behavior="Attacker_Full"
+			build_sidebar_categories_i_am_part_of="SpireCity"
+			starting_mark_level="Mark7" tech_upgrades_that_benefit_me="Unused" does_not_use_multipliers_from_mark_level="true"
+			city_socket_cost="4" name_for_city_sockets="Spire Casing" minimum_required_city_level_for_construction="5" base_ship_cap_in_custom_city="1" mark_level_scale_style="OriginalWithoutCapRise"
+			name_for_city_sockets_short="Casing"
+			cost_for_ai_to_purchase="2000000000" strength_multiplier="7"
+			hull_points="27000000" shield_points="0" speed="VeryVeryLittle1"
+			is_crippled_instead_of_dying="false"
+			is_scrapping_by_player_disallowed="true"
+			never_leaves_remains="true"
+			pushes_enemy_shields="true"
+			disallow_kiting="true"
+			aip_to_claim="170"
+			aip_to_construct="170"
+			aip_on_death="30"	
+			damage_taken_cannot_be_more_than_this_percentage_of_max_health="0.1"
+			metal_to_claim="200000000"			
+			metal_cost="200000000" energy_consumption="500000"	
+			fuel_use="0"
+			armor_mm="1000" albedo="0.65" engine_gx="24" mass_tx="18"
+			ship_or_structure_explosion_sfx="ShipLostMassive_Explosion"
+			ship_or_structure_explosion_if_on_other_planet_sfx="ShipLargeLostOnOtherPlanet_Explosion"
+			ship_or_structure_explosion_sfx_happens_if_not_mine_and_on_other_planet="true"
+            priority_as_ai_target="BigThreateningWeapon" priority_as_frd_target="BigThreateningWeapon" priority_to_protect="BigFavoriteToy"
+			assist_range="Normal1"
+			ship_type_names_required_to_exist_in_custom_fleet="SpireShardReactor,SpireEngineeringCenter,SpireShipyard" ship_type_counts_required_to_exist_in_custom_fleet="1,1,1"
+            base_galaxy_wide_cap_for_players_constructing="1" galaxy_wide_cap_match_string="SpireTrans"
+			>
+			<metal_flow purpose="SelfConstruction" throughput="50000" increase_per_mark_level="100"/>
+			<entity_type_drawing_bag_used_on_death data_list="ExodianBladeWreck" min_spawn_value_list="1"/>
+    <system name="R9" display_name="Spire Gamma Ray Burst Photon Lance"
+				category="Weapon" firing_timing="OnlyInRange"
+				damage_per_shot="4000000" range="EssentiallyInfinite" shot_speed="Normal" rate_of_fire="Devourer"
+				shot_type_data="HeavyBeamInvisible"
+				shots_per_salvo="1" fires_salvos_sequentially="true"
+				beam_length_multiplier="1.3" beam_weapon_visual_style="Laser_Cyan"
+				hits_all_intersecting_targets="true"				
+				shots_detonate_immediately="true"
+				maximum_number_of_targets_hit_per_shot="100000"
+				>
+			<outgoing_damage_modifier based_on="mass_tx" comparison_type="AtLeast" compared_to="7" multiplier="1.1" />
+    </system>	
+	<system name="W1" display_name="Nuclear Detonation"
+			category="Weapon" firing_timing="Never"			
+			damage_per_shot="30000000" range="EssentiallyInfinite" shot_speed="Normal" rate_of_fire="Devourer"
+			shot_type_data="FlakShotAOEBurstAtEnd"
+			ravage_planet_and_all_units_on_it_on_death="true"
+			system_is_hidden_for_ui="true"
+			>
+    </system>
+	<ship_class_data can_be_zombified_and_similar="false" can_be_subjected_to_special_mechanics="false" can_receive_debuffs="false" />
+    </entity>
+	
+	
+	
+	<entity name="ExodianBladeWreck" 
+			tags="ShowsOnNormalDisplayMode" 
+            voice_group="Silent" 
+			gimbal_icon_size_multiplier="1.5"
+			visuals="Assets/_DLC1/FallenSpire/SpireDebris/SpireDebris1.prefab" visuals_bundle="exp1_the_spire_rises"
+			target_type_for_player="NeverTarget"
+			is_scrapping_by_player_disallowed="true"
+			draw_in_galaxy_view="true"
+			icon_name="Ships4/ExoTier1"
+			category="Ship"
+			size_scale="5.2"
+			visuals_scale_multiplier="100" y_offset_of_ship_in_visual_space="-1100" is_always_forced_to_planet_center="true" displaces_other_immobile_objects_as_if_were_planet_tier="true" added_displacement_buffer="1000"
+			y_offset_of_icon="50"
+			collision_priority="810"
+			display_name="Wreckage of the Exodian Blade"
+			display_name_for_sidebar="ExoBladeWreck"
+			description="The exposed core of Exodian Blade... It's completely useless and beyond saving now; can't be repaired, scrapped, or damaged; but the shattered core created a giant Gravitic Vortex, slowing all passing enemy ships down, creating powerful Tachyon emissions that reveal all cloaked enemies, while it's still working sensors give us vision of the system it's at.
+			
+'I'm sorry... That was all I could do...'
+
+"
+			behavior="Stationary"
+			starting_mark_level="Markless"
+			cost_for_ai_to_purchase="100000"
+			hull_points="100000" shield_points="0" speed="Immobile"
+			metal_cost="0" energy_consumption="0"
+			armor_mm="100" albedo="0.5" mass_tx="9"
+			ship_or_structure_explosion_sfx="ShipLostMassive_Explosion"
+			ship_or_structure_explosion_if_on_other_planet_sfx="ShipLargeLostOnOtherPlanet_Explosion"
+			ship_or_structure_explosion_sfx_happens_if_not_mine_and_on_other_planet="true"
+			priority_as_ai_target="IgnoreMe" priority_as_frd_target="IgnoreMe" priority_to_protect="IgnoreMe"
+			force_background_planet_to_disappear="true"
+			base_galaxy_wide_cap_for_players_constructing="1" galaxy_wide_cap_match_string="SpireTrans"
+			>
+		
+		<system name="G1" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.7" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="8" gravity_range="Normal4" min_mark_level_to_function="1" max_mark_level_to_function="1" />
+		<system name="G2" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.65" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="10" gravity_range="Normal6" min_mark_level_to_function="2" max_mark_level_to_function="2" />
+		<system name="G3" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.6" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="12" gravity_range="AboveAverage1" min_mark_level_to_function="3" max_mark_level_to_function="3" />
+		<system name="G4" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.5" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="14" gravity_range="AboveAverage2" min_mark_level_to_function="4" max_mark_level_to_function="4" />
+		<system name="G5" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.4" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="16" gravity_range="AboveAverage3" min_mark_level_to_function="5" max_mark_level_to_function="5" />
+		<system name="G6" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.3" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="21" gravity_range="AboveAverage4" min_mark_level_to_function="6" max_mark_level_to_function="6" />
+		<system name="G7" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.2" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="26" gravity_range="High1" min_mark_level_to_function="7" max_mark_level_to_function="7" />
+		<system name="T" display_name="Tachyon Array"
+	    category="Passive" tachyon_points="100" tachyon_points_added_per_mark="50" tachyon_range="EssentiallyInfinite" tachyon_hits_albedo_less_than="0.9"></system>
+		
+		<ship_class_data can_be_damaged="false" />
+  </entity>
+  
+  
+	
+	<entity name="SpireTransceiver"
+			required_expansion_list="1_The_Spire_Rises"
+			is_partial_record="true"
+			is_scrapping_by_player_disallowed="true"
+			description="We're getting transwarp signals from somewhere very far away, but we can't understand them.  Building this machine might just call in the cavalry, but also will intensely anger the AI. 
+			
+Building this transceiver will make us unable to build the Exodian Blade, so we must make a choice between the two.
+"
+			>
+	</entity>
+  
+</root>
