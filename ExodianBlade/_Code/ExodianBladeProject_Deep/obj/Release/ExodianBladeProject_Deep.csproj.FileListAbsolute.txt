@@ -1,5 +1,0 @@
-C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject_Deep\obj\Release\ExodianBladeProject_Deep.csproj.AssemblyReference.cache
-C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject_Deep\obj\Release\ExodianBladeProject_Deep.csproj.CoreCompileInputs.cache
-C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject_Deep\obj\Release\ExodianB.1FE8C1C6.Up2Date
-C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\ModdableLogicDLLs\ExodianBladeDeep.dll
-C:\AIW2_Modding\AIW2_Copy\XMLMods\ExodianBlade\_Code\ExodianBladeProject_Deep\obj\Release\ExodianBladeDeep.dll
