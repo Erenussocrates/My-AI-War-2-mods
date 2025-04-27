@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+  <entity name="CPABunker"
+		is_partial_record="true"
+		shows_on_galaxy_map_for_explored_planets="true"
+		always_visible_to_players_even_unexplored="true"
+		>
+  </entity>
+  
+</root>
