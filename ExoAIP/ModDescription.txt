@@ -1,0 +1,10 @@
+Did it ever bother you that you don't incur any AIP penalty for destroying the very powerful extra galactic war front units?
+
+Imagine saving a budget for building a special force to end your enemy, but your enemy destroys that force. Your first instinct in that case is, probably to set a bigger budget for next time, or to have necessary precautions / mental notes that will make it less likely to repeat the same failures.
+
+This mod addresses exactly that.
+
+Now, destroying any extra galactic war front unit beyond tier 1 incurs an AIP penalty for the player. (except Dragon or astro train units) 
+These penalties are; 10 AIP for tier 2 units, 25 AIP for tier 3 units, 50 AIP or tier 4 units, and 80 AIP for tier 5 units.
+
+This mod will also work for the brand new exowar ships that are introduced with the Exowar Overhaul mod by Lord of Nothing.

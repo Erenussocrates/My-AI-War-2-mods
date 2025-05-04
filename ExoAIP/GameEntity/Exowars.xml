@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<entity name="ExtragalacticWendigo" 
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticPoltergeist" 
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticWyrm" 
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticChimeraArtillery" 
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticAIHunterAnnihilator" 
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticJackalope" 
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticThunderbird" 
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticMothership" 
+			is_partial_record="true"
+			aip_on_death="50"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticPlanetCracker" 
+			is_partial_record="true"
+			aip_on_death="50"	
+			>
+    </entity>
+	
+	<entity name="ExtragalacticFlenser" 
+			is_partial_record="true"
+			aip_on_death="80"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticPhoenixV2Stage2" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticCentaur" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticLamassu" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticTyphon" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticStrix" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticDireProteus" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticPolaris" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticOgre" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="10"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticRedback" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticGrendel" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticManticore" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticHydra" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="25"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticTrueMothership" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="50"	
+			>
+    </entity>
+	
+	<entity name="LONExowarSuperdragon" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="50"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticFlenserZeus" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="80"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticFlenserThor" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="80"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticFlenserOdin" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="80"	
+			>
+    </entity>
+	
+	<entity name="LONExtragalacticFlenserJupiter" 
+			required_mod_list="ExowarVarietyLON"
+			is_partial_record="true"
+			aip_on_death="80"	
+			>
+    </entity>
+  
+</root>
