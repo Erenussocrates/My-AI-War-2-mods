@@ -29,7 +29,7 @@ Summoning and repairing this capital starship will make us unable to build the S
 			starting_mark_level="Mark7" tech_upgrades_that_benefit_me="Unused" does_not_use_multipliers_from_mark_level="true"
 			city_socket_cost="4" name_for_city_sockets="Spire Casing" minimum_required_city_level_for_construction="5" base_ship_cap_in_custom_city="1" mark_level_scale_style="OriginalWithoutCapRise"
 			name_for_city_sockets_short="Casing"
-			cost_for_ai_to_purchase="2000000000" strength_multiplier="7"
+			cost_for_ai_to_purchase="2000000000" strength_multiplier="5"
 			hull_points="27000000" shield_points="0" speed="VeryVeryLittle1"
 			is_crippled_instead_of_dying="false"
 			is_scrapping_by_player_disallowed="true"
@@ -52,7 +52,7 @@ Summoning and repairing this capital starship will make us unable to build the S
 			ship_type_names_required_to_exist_in_custom_fleet="SpireShardReactor,SpireEngineeringCenter,SpireShipyard" ship_type_counts_required_to_exist_in_custom_fleet="1,1,1"
             base_galaxy_wide_cap_for_players_constructing="1" galaxy_wide_cap_match_string="SpireTrans"
 			>
-			<metal_flow purpose="SelfConstruction" throughput="50000" increase_per_mark_level="100"/>
+			<metal_flow purpose="SelfConstruction" throughput="72500" increase_per_mark_level="100"/>
 			<entity_type_drawing_bag_used_on_death data_list="ExodianBladeWreck" min_spawn_value_list="1"/>
     <system name="R9" display_name="Spire Gamma Ray Burst Photon Lance"
 				category="Weapon" firing_timing="OnlyInRange"
@@ -90,7 +90,7 @@ Summoning and repairing this capital starship will make us unable to build the S
 			icon_name="Ships4/ExoTier1"
 			category="Ship"
 			size_scale="5.2"
-			visuals_scale_multiplier="100" y_offset_of_ship_in_visual_space="-1100" is_always_forced_to_planet_center="true" displaces_other_immobile_objects_as_if_were_planet_tier="true" added_displacement_buffer="1000"
+			visuals_scale_multiplier="170" y_offset_of_ship_in_visual_space="-1100" is_always_forced_to_planet_center="true" displaces_other_immobile_objects_as_if_were_planet_tier="true" added_displacement_buffer="1000"
 			y_offset_of_icon="50"
 			collision_priority="810"
 			display_name="Wreckage of the Exodian Blade"
@@ -132,12 +132,46 @@ Summoning and repairing this capital starship will make us unable to build the S
 	<entity name="SpireTransceiver"
 			required_expansion_list="1_The_Spire_Rises"
 			is_partial_record="true"
+			never_leaves_remains="true"
 			is_scrapping_by_player_disallowed="true"
 			description="We're getting transwarp signals from somewhere very far away, but we can't understand them.  Building this machine might just call in the cavalry, but also will intensely anger the AI. 
 			
 Building this transceiver will make us unable to build the Exodian Blade, so we must make a choice between the two.
 "
 			>
+			<entity_type_drawing_bag_used_on_death data_list="SpireTransceiverWreck" min_spawn_value_list="1"/>
 	</entity>
+	
+	<entity name="SpireTransceiverWreck"
+            voice_group="Silent" 
+            thematic_groups="FallenSpire,Spire"
+            tags="ShowsOnNormalDisplayMode" 
+            visuals="Assets/_DLC1/DarkSpire/DarkSpireDerelict/DarkSpireDerelictD.prefab" visuals_bundle="exp1_the_spire_rises"
+            icon_name="ShipsSpire/SpireTransciever" gimbal_icon_size_multiplier="1.5"
+            uses_large_health_bar="true"
+            category="Ship"
+			target_type_for_player="NeverTarget"
+			is_scrapping_by_player_disallowed="true"
+            size_scale="11"
+			visuals_scale_multiplier="11"
+            y_offset_of_icon="30"
+            collision_priority="810"
+			behavior="Stationary"
+            display_name="Ruins of the Spire Transceiver" display_name_for_sidebar="SpiTransWreck"
+            description="It's the ruins of the Spire Transceiver... It already has served it's purpose. Now it can't be repaired, scrapped, or damaged; but it's powerful signals enable us to watch planets 6 hops away from where this is."
+            starting_mark_level="Markless"
+            cost_for_ai_to_purchase="10000" base_ship_cap_in_custom_city="1" mark_level_scale_style="OriginalWithoutCapRise"
+            hull_points="100000" shield_points="0" speed="Immobile"
+            armor_mm="100" albedo="0.5" mass_tx="5"
+			metal_cost="0" energy_consumption="0"
+            ship_or_structure_explosion_sfx="ShipLostMassive_Explosion"
+            ship_or_structure_explosion_if_on_other_planet_sfx="ShipLargeLostOnOtherPlanet_Explosion"
+            ship_or_structure_explosion_sfx_happens_if_not_mine_and_on_other_planet="true"
+            priority_as_ai_target="IgnoreMe" priority_as_frd_target="IgnoreMe" priority_to_protect="IgnoreMe"
+            base_galaxy_wide_cap_for_players_constructing="1" galaxy_wide_cap_match_string="SpireTrans"
+			watch_planets_at_X_hops="6"
+			>
+			<ship_class_data can_be_damaged="false" />
+    </entity>
   
 </root>
