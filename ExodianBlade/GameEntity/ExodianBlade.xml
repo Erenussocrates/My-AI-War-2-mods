@@ -29,7 +29,7 @@ Summoning and repairing this capital starship will make us unable to build the S
 			starting_mark_level="Mark7" tech_upgrades_that_benefit_me="Unused" does_not_use_multipliers_from_mark_level="true"
 			city_socket_cost="4" name_for_city_sockets="Spire Casing" minimum_required_city_level_for_construction="5" base_ship_cap_in_custom_city="1" mark_level_scale_style="OriginalWithoutCapRise"
 			name_for_city_sockets_short="Casing"
-			cost_for_ai_to_purchase="2000000000" strength_multiplier="5"
+			cost_for_ai_to_purchase="2000000000" strength_multiplier="4"
 			hull_points="27000000" shield_points="0" speed="VeryVeryLittle1"
 			is_crippled_instead_of_dying="false"
 			is_scrapping_by_player_disallowed="true"
@@ -114,13 +114,7 @@ Summoning and repairing this capital starship will make us unable to build the S
 			base_galaxy_wide_cap_for_players_constructing="1" galaxy_wide_cap_match_string="SpireTrans"
 			>
 		
-		<system name="G1" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.7" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="8" gravity_range="Normal4" min_mark_level_to_function="1" max_mark_level_to_function="1" />
-		<system name="G2" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.65" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="10" gravity_range="Normal6" min_mark_level_to_function="2" max_mark_level_to_function="2" />
-		<system name="G3" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.6" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="12" gravity_range="AboveAverage1" min_mark_level_to_function="3" max_mark_level_to_function="3" />
-		<system name="G4" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.5" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="14" gravity_range="AboveAverage2" min_mark_level_to_function="4" max_mark_level_to_function="4" />
-		<system name="G5" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.4" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="16" gravity_range="AboveAverage3" min_mark_level_to_function="5" max_mark_level_to_function="5" />
-		<system name="G6" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.3" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="21" gravity_range="AboveAverage4" min_mark_level_to_function="6" max_mark_level_to_function="6" />
-		<system name="G7" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.2" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="26" gravity_range="High1" min_mark_level_to_function="7" max_mark_level_to_function="7" />
+		<system name="G7" display_name="Gravitic Vortex" category="Passive" base_gravity_speed_multiplier="0.2" subtracted_gravity_speed_multiplier_per_mark="0" gravity_hits_engine_gx_less_than="26" gravity_range="EssentiallyInfinite" min_mark_level_to_function="0" max_mark_level_to_function="0" />
 		<system name="T" display_name="Tachyon Array"
 	    category="Passive" tachyon_points="100" tachyon_points_added_per_mark="50" tachyon_range="EssentiallyInfinite" tachyon_hits_albedo_less_than="0.9"></system>
 		
